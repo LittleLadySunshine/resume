@@ -1,3 +1,72 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
 html, body {
-  margin: 20px;
+  margin: 5px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+button {
+  padding: 5px;
+  float: right;
+  border: 1px solid white;
+  background: white;
+  color: black;
+  border-bottom: 2px solid black;
+  margin: 5px;
+
+}
+
+  button:focus {
+    outline: none;
+    border: 2px solid red;
+    text: 10%;
+  }
+}
+
+#title {
+  float: left;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+.technical-tools {
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.experience {
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.education {
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+#container {
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.resume-body .education h3 {
+  display: inline-block;
+  border-right: 2px solid black;
+  padding: 5px;
+}
+
+.resume-body .technical-tools h3 {
+  display: inline-block;
+  border-right: 2px solid black;
+  padding: 5px;
+}
+
+.resume-body .experience h3 {
+  display: inline-block;
+  border-right: 2px solid black;
+  padding: 5px;
 }
